@@ -1,0 +1,118 @@
+body{
+    background-color: rgba(128, 128, 128, 0.644);
+}
+.box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#videobox{
+    
+    height: 449px;
+    width: 250px;
+    background-color: rgb(14, 17, 17);
+    border: 2px solid black;
+    
+}
+.top{
+    margin-top: 55px;
+    height: 30px;
+    width: 30px;
+    font-size: x-large;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-weight: bolder;
+    background-color: rgba(88, 87, 87, 0.473);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+
+
+
+}
+.top:hover{
+    background-color: rgb(70, 68, 68);
+}
+.down{
+    
+    height: 30px;
+    width: 30px;
+    font-size: x-large;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-weight: bolder;
+    background-color: rgba(88, 87, 87, 0.473);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+
+}
+.icon{
+    position: absolute;
+    bottom: 134px;
+    left:760px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.idbox{
+    height: 130px;
+    width: 164px;
+    float: left;
+   color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 562px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.dp{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(25, 75, 34);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.down:hover{
+    background-color: rgb(54, 53, 53);
+}
+.heart{
+    height: 30px;
+    width: 30px;
+    
+}
+.heart img{
+    height: 25px;
+    width: 25px;
+}
+.comment{
+    height: 25px;
+    width: 25px;
+}
+.share{
+    height: 25px;
+    width: 25px;
+}
+.threedot{
+    height: 25px;
+    width: 25px;
+}
+#name{
+    color: black;
+}
+#about{
+    color: black;
+    overflow: hidden;
+}
